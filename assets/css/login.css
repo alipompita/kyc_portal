@@ -1,0 +1,24 @@
+
+form{
+    padding: 10px;
+}
+.icon-container{
+    text-align: center;
+}
+.login-icon{
+    margin: 10px;
+    width: 100px;
+}
+.login-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+.form-control{
+    background: antiquewhite;
+}
+.clear{
+    content: "";
+    clear: both;
+    display: table;
+}

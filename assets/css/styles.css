@@ -1,0 +1,123 @@
+body{
+    background: #333333;
+    color: antiquewhite;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+
+.arms-fixed{
+    text-align: center;
+    padding: 5em;
+}
+.img{
+    width: 80%;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+.error-text{
+	color:red;
+	backgroung:red;
+}
+
+.transition{
+    transition-property: all;
+    transition-duration: 1s;
+}
+.subsection-heading{
+    font-weight: bold;
+}
+
+.navbar-logo{
+    width: 200px;
+}
+.home-icon{
+    width: 80%;
+}
+.icon-container{
+    text-align: center;
+}
+.app-navication{
+    border: solid 1px antiquewhite;
+    color: antiquewhite;
+}
+.app-navication:hover{
+    background: #4c4b4b;
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+.left-radius{
+    border-radius: 20px 0 0 20px;
+}
+.right-radius {
+    border-radius: 0 20px 20px 0;
+}
+
+hr{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid antiquewhite;
+}
+.btn-link {
+    color: antiquewhite;
+}
+
+.btn-link:hover {
+    color: rgb(185, 235, 49);
+    text-decoration: none;
+
+}
+
+.id-card{
+    border: solid 1px antiquewhite;
+    padding: 4em;
+    border-radius: 2em;
+}
+
+.id-value{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0;
+    animation-name: value;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+@keyframes value{
+    0%{
+        color: pink;
+    }
+    100%{
+        color:aliceblue;
+    }
+}
+.id-label{
+    margin: 0;
+}
+.label-trans{
+    font-style: italic;
+}
+
+@media only screen and (min-width: 1024px){
+.id-icons {
+    text-align: center;
+}
+}
+
+.display {
+    background: rgb(245, 239, 239);
+    color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    border: #333333 solid;
+}
+
